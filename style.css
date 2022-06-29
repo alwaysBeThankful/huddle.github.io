@@ -1,0 +1,50 @@
+/* ======
+COLOR VARIABLE / CSS RESET
+====== */
+:root {
+  /* PRIMARY COLOR */
+  --Pink: hsl(322, 100%, 66%);
+
+  /* NEUTRAL COLOR */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+
+  /* FONT FAMILY */
+  --Heading: "Helvetica", sans-serif;
+  --Body-and-CTA: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======
+UTILITIES
+====== */
+body {
+  font-size: 1.125rem;
+  font-family: var(--Body-and-CTA);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/* ======
+ATTRIBUTION
+====== */
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
