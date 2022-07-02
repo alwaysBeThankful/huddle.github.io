@@ -145,6 +145,10 @@ HERO
   max-width: 95%;
 }
 
+.hero-text {
+  margin-top: 0;
+}
+
 /* ======
 BENEFITS
 ====== */
@@ -233,6 +237,11 @@ footer ul li a,
 .footer-phone a,
 .footer-email a {
   color: #fff;
+}
+
+.footer-phone,
+.footer-email {
+  margin-top: 1rem;
 }
 
 /* ======
@@ -359,4 +368,197 @@ ATTRIBUTION
 }
 .attribution a {
   color: var(--Pink);
+}
+
+@media screen and (min-width: 1216px) {
+  header {
+    padding: 1.5rem 3rem;
+  }
+
+  /* ======
+  NAVAGATION
+  ====== */
+  .nav-container ul li a {
+    padding: 0.6rem 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /* ======
+  HERO
+  ====== */
+  .hero-wrapper {
+    padding: 1.5rem 3rem 3rem;
+  }
+
+  .hero-container {
+    display: flex;
+    text-align: start;
+  }
+
+  .hero-container img {
+    max-width: 50%;
+    margin-left: auto;
+    margin-top: -1rem;
+  }
+
+  .hero-container a {
+    margin: 1.5rem 0;
+    max-width: 40%;
+  }
+
+  .hero-container p {
+    width: 78%;
+  }
+
+  .hero-container h1 {
+    font-size: 2.3rem;
+    width: 68%;
+  }
+
+  .hero-text {
+    margin-top: 4.6rem;
+  }
+
+  /* ======
+  BENEFITS
+  ====== */
+  .benefits-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .benefits-wrapper {
+    padding: 1.5rem 3.5rem;
+  }
+
+  .benefits-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: start;
+    padding: 0rem 0rem 0rem 6rem;
+  }
+
+  .benefits-card h2 {
+    padding-top: 0;
+  }
+
+  .benefits-card img {
+    max-width: 45%;
+    margin-left: auto;
+    padding: 2.75rem 4rem;
+  }
+
+  .card2 {
+    padding: 0 0 0 1.4rem;
+  }
+
+  .card2 img {
+    order: 2;
+  }
+
+  .card2 p {
+    padding-bottom: 0;
+  }
+
+  .bc-text:nth-of-type(2) {
+    margin-left: 20rem;
+  }
+
+  .card1 p,
+  .card2 p,
+  .card3 p {
+    margin: 0;
+    width: 71%;
+  }
+
+  .cta {
+    max-width: 1440px;
+    margin: 0 25rem;
+    top: -21%;
+    padding: 2rem 0rem;
+    gap: 1.3rem;
+  }
+
+  .cta a {
+    width: 35%;
+  }
+
+  .cta h2 {
+    margin-top: 1rem;
+  }
+
+  /* ======
+  FOOTER
+  ====== */
+  .footer-wrapper {
+    padding: 1.5rem 1.5rem 4.5rem;
+    margin-top: 12rem;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+  }
+
+  .footer-container::before {
+    content: "";
+    background: url(./images/footer-logo.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 7.5%;
+    background-size: 200px;
+  }
+
+  .nav-footer {
+    column-count: 2;
+  }
+  .nav-footer ul {
+    display: inline;
+    line-height: 2rem;
+  }
+
+  .social-media {
+    margin-top: 0;
+  }
+
+  .footer-left {
+    margin-left: 1rem;
+  }
+
+  .f-negative-left {
+    margin-left: -5rem;
+  }
+
+  .attribution {
+    position: absolute;
+    top: 85%;
+    margin-top: 3rem;
+  }
+
+  .footer-location,
+  .footer-phone,
+  .footer-email {
+    margin-bottom: 0.8rem;
+  }
+
+  .visibility {
+    visibility: hidden;
+  }
+
+  .footer-number {
+    margin-left: -3rem;
+  }
+
+  .social-media ol {
+    justify-content: flex-start;
+  }
+
+  .social-media p {
+    margin-top: 10rem;
+  }
 }
